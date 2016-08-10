@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV TERRAFORM_VERSION=0.6.16
+ENV TERRAFORM_VERSION=0.7.0
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \
